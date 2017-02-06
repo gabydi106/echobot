@@ -1,13 +1,21 @@
 # echobot for facebook messenger
 
-A facebook messenger bot in node.js (not deployed, not in use)
+A facebook messenger bot in node.js deployed on Heroku [[link]](https://peaceful-reaches-51734.herokuapp.com)
 
 ### Follows Facebook Messenger Platform tutorial 
 
 1. Configure Node.js
 - Configure Heroku
-- Configure Facebook Page
+
+  ```
+  heroku login
+  heroku create
+  git push heroku master
+  ```
+
+3. Configure Facebook Page
 - Configure Facebook App
+
 
 ### Working Code for Echo
 
